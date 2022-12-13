@@ -144,5 +144,3 @@ probs = lr.predict_proba([person])
 st.write(f"Propability this person is a LinkedIn user: {probs[0][1]}")
 
 #st.button('Probability of being a LinkedIn User' on_click=predict)
-
-st.cache
